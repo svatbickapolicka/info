@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.el h3{
+    font-weight:normal;
+    color: #b5a1cd;
+    font-size: medium;   
+    font-weight: bold;
+} 
+
+.el p{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: medium;
+} 
+
+
+#content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 700px;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    /*border-radius: 50%;*/
+    /*border: 1px outset rgb(97, 2, 84);*/
+}
+
+
+html {
+    background: url('lightpaperfibers/lightpaperfibers.png');
+}
+
+h2 {
+    font-family: 'Meddon', cursive;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1 {
+    font-family: 'Meddon', cursive;
+    text-align: center;
+}
+
+.slogan{
+    text-align: center;
+    font-style: italic; 
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #b5a1cd;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    right: 0;
+}
+  
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+
+.navbar a:hover {
+    background : white;
+    color: black;
+}
+
+
+
+
+
+table.program{
+    margin: 20px 0 0 0;
+    padding-left: 25px;
+    /*padding: 0;*/
+    border-spacing: 0;
+    width: 100%;
+}
+
+table.program tr{
+    margin: 0;
+    padding: 0;
+}
+
+table.program td{
+    margin: 0;
+    /*border-bottom: 1px solid #dddddd;*/
+}
+
+table.program td.time{
+    width: 90px;
+    color: #b5a1cd;
+    font-weight: bold;
+    text-align: center;
+}
+
+table.program td.event {
+    padding: 10px 0;
+}
+
+
+
+footer {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*background-color: rgb(97, 2, 84);*/
+    /*opacity: 0.2;*/
+    /*color: white;*/
+    text-align: center;
+    font-size: x-small;
+}
+ 
+  
