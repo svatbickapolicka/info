@@ -1,18 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 .el h3{
-    font-weight:normal;
+    /*font-weight:normal;*/
     color: #b5a1cd;
-    font-size: medium;   
-    font-weight: bold;
+    /*font-size: medium;*/   
+    font-size:1.5vw;
+    /*font-weight: bolder;*/
 } 
+
+
 
 .el p{
     padding-left: 50px;
     padding-right: 50px;
-    font-size: medium;
+    font-size:1.5vw;
 } 
 
 
@@ -28,31 +33,34 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 40%;
-    /*border-radius: 50%;*/
-    /*border: 1px outset rgb(97, 2, 84);*/
+    width: 50%;
+    height: auto;
 }
 
 
 html {
     background: url('lightpaperfibers/lightpaperfibers.png');
+    scroll-padding-top: 70px; /* to overcome hiding the content by the fixed banner */
 }
 
 h2 {
-    font-family: 'Meddon', cursive;
+    font-family: 'WindSong', cursive;
     text-align: center;
     margin-top: 40px;
+    font-size:3vw;
 }
 
 h1 {
-    font-family: 'Meddon', cursive;
+    font-family: 'WindSong', cursive;
     text-align: center;
+    font-size:3.5vw;
 }
 
 .slogan{
     text-align: center;
     font-style: italic; 
     margin-bottom: 50px;
+    font-size:1.5vw;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -66,7 +74,6 @@ h1 {
     width: 100%; 
     right: 0;
 }
-  
 
 .navbar a {
     float: left;
@@ -76,6 +83,7 @@ h1 {
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
+    font-size:1.5vw;
 }
   
 
@@ -86,23 +94,24 @@ h1 {
 
 
 
-
-
 table.program{
     margin: 20px 0 0 0;
     padding-left: 25px;
     /*padding: 0;*/
     border-spacing: 0;
     width: 100%;
+    font-size:1.5vw;
 }
 
 table.program tr{
     margin: 0;
     padding: 0;
+    font-size:1.5vw;
 }
 
 table.program td{
     margin: 0;
+    font-size:1.5vw;
     /*border-bottom: 1px solid #dddddd;*/
 }
 
@@ -115,6 +124,7 @@ table.program td.time{
 
 table.program td.event {
     padding: 10px 0;
+    font-size:1.5vw;
 }
 
 
@@ -128,7 +138,7 @@ footer {
     /*opacity: 0.2;*/
     /*color: white;*/
     text-align: center;
-    font-size: x-small;
+    font-size:1vw;
 }
  
   
