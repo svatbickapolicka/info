@@ -38,7 +38,7 @@ body {
 .description p {
 	color:#000;
 	line-height: 1.5;
-    font-size:1.8vw;
+    /*font-size:1.8vw;*/
     font-style: italic; 
 }
 
@@ -49,8 +49,8 @@ body {
 	position: relative;
 }
 .feature-title {
-	color: #333;
-	font-size: 1.3rem;
+	color: #b5a1cd;
+	font-size: 1.9rem;
 	font-weight: 700;
 	margin-bottom: 20px;
 	/*text-transform: uppercase;*/
@@ -68,5 +68,39 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size:1.5vw;
+    /*font-size:1.5rem;*/
+}
+
+
+table.program{
+    margin: 20px 0 0 0;
+    padding-left: 25px;
+    /*padding: 0;*/
+    border-spacing: 0;
+    width: 100%;
+    /*font-size:1.5vw;*/
+}
+
+table.program tr{
+    margin: 0;
+    padding: 0;
+    /*font-size:1.5vw;*/
+}
+
+table.program td{
+    margin: 0;
+    /*font-size:1.5vw;*/
+    /*border-bottom: 1px solid #dddddd;*/
+}
+
+table.program td.time{
+    width: 90px;
+    color: #b5a1cd;
+    font-weight: bold;
+    text-align: center;
+}
+
+table.program td.event {
+    padding: 10px 0;
+    /*font-size:1.5vw;*/
 }
