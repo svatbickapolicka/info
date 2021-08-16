@@ -31,7 +31,7 @@
     font-size:1.5vw;
 } 
 
-
+/*
 #content {
     margin-right: auto;
     margin-left: auto;
@@ -39,9 +39,10 @@
     margin-top: 90px;
     font-family: 'Roboto', sans-serif;
     /*display: flex;*/
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;
     justify-content: space-between;
 }
+*/
 
 img {
     margin-left: auto;
