@@ -97,14 +97,3 @@ table.program td.event {
     padding: 10px 0;
 }
 
-
-
-
-
-.container-table {
-    display: table;
-}
-.vertical-center-row {
-    display: table-cell;
-    vertical-align: middle;
-}
