@@ -5,13 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 
+/*old color: #b5a1cd;*/
+
+
 body {
     padding: 0;
     margin: 0;
     background: hsl(120, 9%, 98%);
 }
 .navbar {
-    background:#b5a1cd;
+    background:#98c4c5;
 }
 .nav-link,
 .navbar-brand {
@@ -32,7 +35,7 @@ body {
 	text-align: center;
 }
 .description h1 {
-	color: #b5a1cd;
+    color: #98c4c5;
     font-family: 'WindSong', cursive;
 }
 .description p {
@@ -49,7 +52,7 @@ body {
 	position: relative;
 }
 .feature-title {
-	color: #b5a1cd;
+	color: #98c4c5;
 	font-size: 1.9rem;
 	font-weight: 700;
 	margin-bottom: 20px;
@@ -88,7 +91,7 @@ table.program td{
 
 table.program td.time{
     width: 90px;
-    color: #b5a1cd;
+    color: #98c4c5;
     font-weight: bold;
     text-align: center;
 }
